@@ -2,7 +2,7 @@
 /**
  * main - where the prgram starts to run
  *
- * Return - Always 0 (run successifully)
+ * Return: Always 0 (run successifully)
  */
 int main(void)
 {
