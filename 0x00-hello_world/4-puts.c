@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
  *main - where the prgram starts to run
  *
  * body -use puts function to print
