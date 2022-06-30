@@ -1,8 +1,6 @@
 #include<stdio.h>
 /**
- *main - where the prgram starts to run
- *
- * body -use puts function to print
+ * main - where the prgram starts to run
  *
  * Return - Always 0 (run successifully)
  */
