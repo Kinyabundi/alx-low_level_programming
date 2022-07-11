@@ -2,11 +2,12 @@
 
 /**
  * swap_int - swaps the value of int a and int b
- * @: first int to swap
- * @: second int to swap
+ * @a: first int to swap
+ * @b: second int to swap
  *
  * Return: void
  */
+
 void swap_int(int *a, int *b)
 {
 int c;
