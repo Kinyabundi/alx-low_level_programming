@@ -1,1 +1,1 @@
-prints _putchar
+Pointers,array and manipulation of strings
