@@ -1,29 +1,20 @@
 #include "main.h"
+
 /**
- * _strstr - Function
- *
- * Description:  locates a substring.
- * finds the first occurance of substring
- *
- * @haystack: pointer parameter of type char, where to search
- * @needle: pointer parameter of type char, what to search
- *
- * Return: returns pointer to the beginning if found else null
- */
-char *_strstr(char *haystack, char *needle)
+  * print_chessboard -  prints the chessboard.
+  * @a: 1D array pointer.
+  *
+  */
+void print_chessboard(char (*a)[8])
 {
-	while (*haystack)
+	int i, j;
+
+	for (i = 0 ; i < 8 ; i++)
 	{
-		while (*haystack == *needle)
+		for (j = 0 ; j < 8 ; j++)
 		{
-			haystack++;
-			needle++;
+			_putchar(a[i][j]);
 		}
-		if (*needle == '\0')
-		{
-			return (haystack);
-		}
-		haystack = haystack + 1;
+		_putchar('\n');
 	}
-	return (NULL);
 }
