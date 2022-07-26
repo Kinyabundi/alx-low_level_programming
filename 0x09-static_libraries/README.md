@@ -1,1 +1,1 @@
-first stastice library
+first static library in C
